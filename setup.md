@@ -29,7 +29,7 @@ Since there are configuration issues on our server which prevent us from using t
 1. Exit the MySQL command line: `exit`
 
 ## Run the application
-1. Using the file tree on the right Navigate to the `amsb/ci/application/index.php` and click to open the file.
+1. Using the file tree on the right Navigate to the `/amsb/ci/index.php` and click to open the file.
 1. Press the Run button at the top of the page.  This will open a console window at the bottom of the page.
 1. Click on the URL in the console.  This should open another tab in your browser with the running application.
 1. Log-in using *capstone* and *mypassword*
