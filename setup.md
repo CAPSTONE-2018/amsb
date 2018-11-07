@@ -17,14 +17,14 @@ Since there are configuration issues on our server which prevent us from using t
 1. Create the database user:  `CREATE USER  'bigGuy'@'localhost'  identified by 'mypassword';`
 
 1. Give usage privileges to the database user:  `GRANT SELECT, INSERT, UPDATE, DELETE on amsb_amsb.* TO 'bigGuy'@'localhost';`
-
+insert
 1. Use the AMSB database: `USE amsb_amsb`
 
 1. Load the test data from the GitHub repository:
 `SOURCE /home/ubuntu/workspace/amsb/MostRecentAMSB.sql`
 
 1. Add a new user to the amsb_amsb.  This script creates a user with username *capstone* and password *mypassword*.<br/>
-  `insert into admin_users values(null, "capstone","c858f97755cd5a6a6d23ae02cd140fcba0a07abb", 2,   0, 0, 1, 0 , 0 , 0 , 0 , 0 , 0 , "Capstone", "Student", ""  , ""  , "" , "capstone@lewisu.edu" ,""  , "" , "" ,"" , "" ,"" ,"" ,  0 ,  0 , "0000-00-00 00:00:00", CURRENT_TIMESTAMP , 1 , 1)`
+  ` insert into admin_users values(null, "capstone","c858f97755cd5a6a6d23ae02cd140fcba0a07abb", 2, 0, 0, 1, 0 , 0 , 0 , 0 , 0 , 0 , "Capstone", "Student", "" , "" , "" , "", "capstone@lewisu.edu" ,"", "" , "" , "" ,"" , "" ,"" ,"" , 0 , 0 , "0000-00-00 00:00:00", CURRENT_TIMESTAMP , 1 , 1);`
 
 1. Exit the MySQL command line: `exit`
 
