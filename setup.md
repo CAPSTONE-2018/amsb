@@ -17,7 +17,7 @@ Since there are configuration issues on our server which prevent us from using t
 1. Create the database user:  `CREATE USER  'bigGuy'@'localhost'  identified by 'mypassword';`
 
 1. Give usage privileges to the database user:  `GRANT SELECT, INSERT, UPDATE, DELETE on amsb_amsb.* TO 'bigGuy'@'localhost';`
-insert
+
 1. Use the AMSB database: `USE amsb_amsb`
 
 1. Load the test data from the GitHub repository:
